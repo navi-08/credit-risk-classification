@@ -1,8 +1,37 @@
 # credit-risk-classification
 supervised learning
 
+        ****Overview:**
+The purpose of this analysis is to evaluate the performance of a logistic regression model trained with oversampled data for predicting loan categories - healthy (label `0`) and high-risk (label `1`). The oversampling is applied to address class imbalance, and the goal is to assess how well the model identifies both types of loans.
 
-In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+**Model Evaluation Metrics:**
+- **Accuracy:** 99%
+- **Precision (Label `0` - Healthy Loans):** 100%
+- **Recall (Label `0` - Healthy Loans):** 99%
+- **F1-score (Label `0` - Healthy Loans):** 100%
+- **Precision (Label `1` - High-Risk Loans):** 84%
+- **Recall (Label `1` - High-Risk Loans):** 99%
+- **F1-score (Label `1` - High-Risk Loans):** 91%
+
+**Summary:**
+The logistic regression model, trained with oversampled data, demonstrates exceptional performance in predicting both healthy and high-risk loans. It achieves perfect precision and recall for healthy loans and maintains a good balance for high-risk loans. The overall accuracy stands at 99%, showcasing the model's robustness.
+
+**Recommendation:**
+- **Positive Aspects:**
+  - Exceptional performance in identifying healthy loans.
+  - Effective capture of high-risk loans with a good balance between precision and recall.
+  - High overall accuracy and well-balanced metrics indicate model robustness.
+
+- **Recommendation:**
+  - **Recommended:** The model is recommended for use by the company due to its outstanding performance in accurately classifying both healthy and high-risk loans. The high precision and recall scores, along with a 99% accuracy, make it a reliable tool for loan categorization.
+
+- **Justification:**
+  - The model's ability to achieve a perfect F1-score for healthy loans and a well-balanced F1-score for high-risk loans demonstrates its effectiveness in addressing the company's classification needs. The high accuracy further supports its reliability, making it a suitable choice for deployment in a real-world scenario.**
+
+
+
+
+                    In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 Before You Begin
 Create a new repository for this project called credit-risk-classification. Do not add this homework to an existing repository.
@@ -67,29 +96,4 @@ The results: Using a bulleted list, describe the accuracy score, the precision s
 A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
 
-****Overview:**
-The purpose of this analysis is to evaluate the performance of a logistic regression model trained with oversampled data for predicting loan categories - healthy (label `0`) and high-risk (label `1`). The oversampling is applied to address class imbalance, and the goal is to assess how well the model identifies both types of loans.
 
-**Model Evaluation Metrics:**
-- **Accuracy:** 99%
-- **Precision (Label `0` - Healthy Loans):** 100%
-- **Recall (Label `0` - Healthy Loans):** 99%
-- **F1-score (Label `0` - Healthy Loans):** 100%
-- **Precision (Label `1` - High-Risk Loans):** 84%
-- **Recall (Label `1` - High-Risk Loans):** 99%
-- **F1-score (Label `1` - High-Risk Loans):** 91%
-
-**Summary:**
-The logistic regression model, trained with oversampled data, demonstrates exceptional performance in predicting both healthy and high-risk loans. It achieves perfect precision and recall for healthy loans and maintains a good balance for high-risk loans. The overall accuracy stands at 99%, showcasing the model's robustness.
-
-**Recommendation:**
-- **Positive Aspects:**
-  - Exceptional performance in identifying healthy loans.
-  - Effective capture of high-risk loans with a good balance between precision and recall.
-  - High overall accuracy and well-balanced metrics indicate model robustness.
-
-- **Recommendation:**
-  - **Recommended:** The model is recommended for use by the company due to its outstanding performance in accurately classifying both healthy and high-risk loans. The high precision and recall scores, along with a 99% accuracy, make it a reliable tool for loan categorization.
-
-- **Justification:**
-  - The model's ability to achieve a perfect F1-score for healthy loans and a well-balanced F1-score for high-risk loans demonstrates its effectiveness in addressing the company's classification needs. The high accuracy further supports its reliability, making it a suitable choice for deployment in a real-world scenario.**
